@@ -81,6 +81,10 @@ Below are the original designs.  We have decided to focus on designs A, B, C, F,
 <img src='images/f.png' width="50%" />
 <img src='images/g.png' width="50%" />
 <img src='images/h.png' width="50%" />
+<br />
+<p>
+	Our visualization designs reflect several design principles.  Repetition is used in the delay by time chart.  Flights with high delays stick out to the user to warn them, while flights with little to no delay blend together to the eye.  Rhythm is used in the map graphic with plane graphics moving from source airport to destination airport on the map.  Not only does this give information about the geographic locations of the airports, it is also pleasing to the eye.  Unity is used is all the graphics, as we have a consistent color scheme and the bar graphs look similar looking.  This prevents the user to be distracted and gives a sense of an overall theme.
+</p>
 <h4>Implementation</h4>
 <p>
 So far we have aggregated the following data into our repository: data representing the abbreviations of different airports, data representing the locations of different airports, and data representing US continental flights from 2015.  We also have displayed a visualization to geographically represent flights on a US continental map.  We found <a href='https://gist.github.com/bradoyler/d2725b17d38239e7de49c39ebdeae94f'>this source</a> helpful in making this map.  The visualization shows all airports in our database as black points on the map.  This visualization allows you to choose a specific date as well as a specific departure and arrival city.  Right now, it shows animations of planes traveling between the two relevant airports.  For the continental US this works as expected.  For Hawaii and Alaska, the visualization works a little bit different because these states are generally shown on the map in a place different than their actual relative geographic location.  The two visualizations currently displayed correspond to figures A and B in the Design Evolution section.  This can be seen in Figure I below.
